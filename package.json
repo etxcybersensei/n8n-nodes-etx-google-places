@@ -1,11 +1,16 @@
 {
   "name": "n8n-nodes-etx-google-places",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node for Google Places API (New) — Text Search endpoint for security and intelligence workflows",
   "license": "MIT",
   "homepage": "",
-  "keywords": ["n8n-community-node-package"],
-  "author": { "name": "ethicxlhuman", "email": "ethkunsh801@gmail.com" },
+  "keywords": [
+    "n8n-community-node-package"
+  ],
+  "author": {
+    "name": "ethicxlhuman",
+    "email": "ethkunsh801@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ethicxl/n8n-nodes-etx-google-places.git"
@@ -19,12 +24,18 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
-    "credentials": ["dist/credentials/EtxGooglePlacesApi.credentials.js"],
-    "nodes": ["dist/nodes/EtxGooglePlaces/EtxGooglePlaces.node.js"]
+    "credentials": [
+      "dist/credentials/EtxGooglePlacesApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/EtxGooglePlaces/EtxGooglePlaces.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -33,5 +44,7 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
